@@ -12,7 +12,7 @@ const Home = () => {
 
                         <div className="content">
                             <a href="#" className='pre-btn'><span class="blinking-bullet"></span> Open for freelance & full-time opportunities</a>
-                            <h1 className='gradient-text'>Test Lehhril Chaudhary<br /> Frontend Developer </h1>
+                            <h1 className='gradient-text'>Lehhril Chaudhary<br /> Frontend Developer </h1>
                             <p>Turning designs into smooth, scalable frontend experiences.</p>
                             <div className='banner-btns'>
                                 <a href="#">Download Resume</a>
