@@ -4,8 +4,7 @@ import { Icon } from '@iconify-icon/react';
 
 
 function ContactForm() {
-    const formKey = import.meta.env.VITE_CONTACT_FORM;
-    const [state, handleSubmit] = useForm(formKey);
+    const [state, handleSubmit] = useForm(import.meta.env.VITE_CONTACT_FORM;);
 
     const [formData, setFormData] = useState({
         name: '',
