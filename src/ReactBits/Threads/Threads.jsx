@@ -201,7 +201,7 @@ const Threads = ({
         program.uniforms.uMouse.value[0] = 0.5;
         program.uniforms.uMouse.value[1] = 0.5;
       }
-      program.uniforms.iTime.value = t * 0.001;
+      program.uniforms.iTime.value = t * 0.0005;
 
       renderer.render({ scene: mesh });
       animationFrameId.current = requestAnimationFrame(update);
